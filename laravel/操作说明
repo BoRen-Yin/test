@@ -1,0 +1,18 @@
+Laravel
+
+
+创建控制器（切换到根目录）  命令  php artisan make:controller TestController（控制器名称）
+
+创建模型（切换到根目录）    命令  php artisan make:model Admin/Member
+
+创建迁移文件              命令  php artisan make:migration create_paper_table(名称)
+
+第一次执行迁移文件需要运行   命令  php artisan migrate:install 数据库会多出一个表 作用是记录迁移操作
+
+创建数据表                命令  php artisan migrate
+
+回滚操作                  命令  php artisan migrate:rollback   回滚最后一次的迁移操作（不删除迁移文件）
+
+创建填充器                命令   php artisan make:seeder PaperTableSeeder(名称)
+
+执行填充器                命令   php artisan db:seed –class = PaperTableSeeder(需要执行的文件名称不带php)
