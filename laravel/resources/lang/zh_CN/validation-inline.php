@@ -177,6 +177,8 @@ return [
         'time'                  => '时间',
         'available'             => '可用的',
         'size'                  => '大小',
+        'captcha'               => '验证码'
     ],
+    'captcha'   => '验证码 不正确',
 
 ];

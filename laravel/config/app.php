@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'zh-CN',
+    'locale' => 'zh_CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -231,5 +231,6 @@ return [
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
 
     ],
+
 
 ];

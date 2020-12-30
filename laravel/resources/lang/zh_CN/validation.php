@@ -152,6 +152,7 @@ return [
         'email'                 => '邮箱',
         'first_name'            => '名',
         'last_name'             => '姓',
+        'passwd'                => '密码',
         'password'              => '密码',
         'password_confirmation' => '确认密码',
         'city'                  => '城市',
@@ -178,5 +179,5 @@ return [
         'size'                  => '大小',
         'captcha'               => '验证码'
     ],
-    'Captcha'   => '验证码 不正确',
+    'captcha'   => '验证码 不正确',
 ];
