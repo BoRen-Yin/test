@@ -52,7 +52,10 @@ class IndexController extends Controller
             $res = \App\Models\Admin\Admin::where('user',$user)->where('passwd',md5($passwd))->where('status','=','1')->first();
 
             if($res){
-                //dd($res);
+                //dd($res->id);
+                Admin::where('id',$res->id)->update([
+                    'log_time'=> time(),
+                ]);
                 Session::put('admin_user',$res);
 
                 return redirect('/admin/index');

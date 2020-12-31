@@ -1,5 +1,11 @@
 {
 	"contentManagement": [
+        {
+            "title": "管理员列表",
+            "icon": "&#xe613;",
+            "href": "/admin/admin/index",
+            "spread": false
+        },
 		{
 			"title": "文章列表",
 			"icon": "icon-text",
